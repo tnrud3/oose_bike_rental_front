@@ -1,0 +1,131 @@
+:root {
+    --red: #ef6161;
+    --green: #7ac142;
+}
+
+.signup-page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+
+.signup-page .signup-content {
+    width: 420px;
+    padding: 40px;
+    height: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid var(--green);
+    float: left;
+    transition: all 0.2s ease-out;
+    transition-delay: 0.2s;
+}
+
+.signup-page
+.signup-content.signup-content-signin.ng-hide:not(.ng-hide-animate),
+.signup-page
+.signup-content.signup-content-signup.ng-hide:not(.ng-hide-animate) {
+    transition-delay: 0s;
+    display: block;
+    opacity: 0;
+    z-index: -1;
+    transform: translate(-45%, -50%);
+}
+
+.signup-page
+.signup-content.signup-content-signup.ng-hide:not(.ng-hide-animate) {
+    transition-delay: 0s;
+    display: block;
+    opacity: 0;
+    z-index: -1;
+    transform: translate(-55%, -50%);
+}
+
+.signup-page .signup-content h2 {
+    text-align: left;
+    color: var(--green);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-page .signup-content form.wrapper-box {
+    margin-top: 40px;
+}
+
+.signup-page .signup-content form.wrapper-box input {
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    padding-left: 0;
+    box-shadow: none;
+    transition: all 0.1s ease-out;
+    display: block;
+}
+
+.signup-page .signup-content form.wrapper-box input:valid {
+    border-bottom: 1px solid var(--green);
+}
+
+.signup-page .signup-content form.wrapper-box input:focus:invalid {
+    border-bottom: 1px solid var(--red);
+}
+
+.signup-page .signup-content form.wrapper-box ::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.signup-page .signup-content form.wrapper-box :-moz-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.signup-page .signup-content form.wrapper-box ::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.signup-page .signup-content form.wrapper-box :-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.signup-page .signup-content form.wrapper-box button {
+    display: inline-block;
+    margin-top: 50px;
+    border: 2px solid var(--green);
+    background: var(--green);
+    border-radius: 25px;
+    padding: 3px 12px 5px 12px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    transition: all 0.1s ease-out;
+}
+
+.signup-page .signup-content form.wrapper-box button:hover {
+    color: var(--green);
+    background: #fff;
+    border: 2px solid var(--green);
+}
+
+.signup-page .signup-content form.wrapper-box button:active {
+    box-shadow: none;
+}
+
+.signup-page .signup-content.signup-content-signin > div,
+.signup-page .signup-content.signup-content-signup > div {
+    overflow: hidden;
+    top: 50%;
+    position: relative;
+    transform: translateY(-50%);
+}
