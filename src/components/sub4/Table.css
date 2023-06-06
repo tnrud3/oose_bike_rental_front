@@ -11,11 +11,12 @@
     border-collapse: collapse;
 }
 .announce_table thead {
-    background-color: #cccccc;
+    background-color: #7AC142FF;
 }
 .announce_table thead tr th {
     border: black solid 2px;
     padding: 10px;
+    color: white;
 }
 .announce_table tbody tr td {
     border: #cccccc solid 1px;

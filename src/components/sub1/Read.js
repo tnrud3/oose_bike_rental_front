@@ -1,5 +1,5 @@
 import React from 'react';
-import './read.css';
+import './Read.css';
 
 const Read = () => {
     const handleRead = (e) => {
@@ -17,9 +17,6 @@ const Read = () => {
                         <div className="form-control form-control-read">Name : 이순신</div>
                         <div className="form-control form-control-read">Phone : 010-****-****</div>
                         <div className="form-control form-control-read">E-mail : 123@a.com</div>
-                        <button type="submit" className="btn btn-submit btn-default pull-right">
-                            Back
-                        </button>
                     </form>
                 </div>
             </div>

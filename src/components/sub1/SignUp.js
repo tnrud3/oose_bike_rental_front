@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './signUp.css';
+import './SignUp.css';
 
-const Signup = () => {
+const SignUp = () => {
     const [id, setId] = useState('');
     const [password, setPassword] = useState('');
     const [username, setUsername] = useState('');
@@ -79,4 +79,4 @@ const Signup = () => {
     );
 };
 
-export default Signup;
+export default SignUp;
