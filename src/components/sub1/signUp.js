@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../s1_css/signUp.css';
+import './signUp.css';
 
 const Signup = () => {
     const [id, setId] = useState('');

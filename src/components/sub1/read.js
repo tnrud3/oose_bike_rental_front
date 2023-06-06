@@ -1,5 +1,5 @@
 import React from 'react';
-import '../s1_css/read.css';
+import './read.css';
 
 const Read = () => {
     const handleRead = (e) => {

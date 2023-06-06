@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Announcement from "./componemt/announcement/AnnouncementUI";
+import Announcement from "./components/sub4/AnnouncementUI";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
