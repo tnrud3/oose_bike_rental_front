@@ -11,6 +11,7 @@ import InsertRentalOfficePage from "./components/sub5/RentalOffice/InsertRentalO
 import Announcement from "./components/sub4/AnnouncementUI";
 import SignUp from "./components/sub1/SignUp";
 import Read from "./components/sub1/Read";
+import AddAnnouncement from "./components/sub4/AddAnnouncement";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,6 +22,7 @@ root.render(
               <Route path="/signUp" element={<SignUp />} />
               <Route path="/userInqury" element={<Read />} />
               <Route path="/announcement" element={<Announcement />} />
+              <Route path="/announcement/add" element={<AddAnnouncement />} />
               <Route path="/bicycle" element={<BicyclePage />} />
               <Route path="/bicycle/insert" element={<InsertBicyclePage/>} />
               <Route path="/rentalOffice" element={<RentalOfficePage />} />

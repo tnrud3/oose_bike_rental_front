@@ -1,6 +1,7 @@
 import Table from "./Table"
 import "./AnnouncementUI.css"
 import Paging from "./Paging";
+import {Link} from "react-router-dom";
 
 export default function Announcement() {
     const dummy = [
@@ -14,7 +15,7 @@ export default function Announcement() {
         <div className="announce_container">
             <Table data={dummy}></Table>
             <div className="button_container">
-                <button className="write_button">글쓰기</button>
+                <Link to="add"><button className="write_button">글쓰기</button></Link>
             </div>
         </div>
     )
