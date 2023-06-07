@@ -1,14 +1,10 @@
-.announce_container {
-    margin: 0 auto;
-    max-width: 1000px;
-}
-.announce_container .button_container {
+.button_container {
     margin-top: 20px;
     position: relative;
     display: flex;
     flex-direction: row-reverse;
 }
-.announce_container .button_container .write_button {
+.button_container .write_button {
     background-color: #ffffff;
     border: solid #cccccc 1px;
     cursor: pointer;

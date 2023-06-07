@@ -1,4 +1,5 @@
 import "./Table.css"
+import {Link} from "react-router-dom";
 
 function Table({data}) {
     const colums = ["No", "Title"]
@@ -16,7 +17,7 @@ function Table({data}) {
                 {data.map(({No, Title}) => (
                     <tr>
                         <td>{No}</td>
-                        <td>{Title}</td>
+                        <td><Link to={`/announcement/${No}`}>{Title}</Link></td>
                     </tr>
                 ))}
                 </tbody>

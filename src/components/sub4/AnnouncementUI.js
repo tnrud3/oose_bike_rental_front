@@ -12,7 +12,8 @@ export default function Announcement() {
     ]
 
     return(
-        <div className="announce_container">
+        <div className="container">
+            <h2>공지사항</h2>
             <Table data={dummy}></Table>
             <div className="button_container">
                 <Link to="add"><button className="write_button">글쓰기</button></Link>

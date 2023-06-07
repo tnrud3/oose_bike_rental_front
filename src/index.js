@@ -12,6 +12,7 @@ import Announcement from "./components/sub4/AnnouncementUI";
 import SignUp from "./components/sub1/SignUp";
 import Read from "./components/sub1/Read";
 import AddAnnouncement from "./components/sub4/AddAnnouncement";
+import AnnouncementDetail from "./components/sub4/AnnouncementDetail";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +23,7 @@ root.render(
               <Route path="/signUp" element={<SignUp />} />
               <Route path="/userInqury" element={<Read />} />
               <Route path="/announcement" element={<Announcement />} />
+              <Route path="/announcement/:no" element={<AnnouncementDetail />} />
               <Route path="/announcement/add" element={<AddAnnouncement />} />
               <Route path="/bicycle" element={<BicyclePage />} />
               <Route path="/bicycle/insert" element={<InsertBicyclePage/>} />

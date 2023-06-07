@@ -1,4 +1,26 @@
-.add_container {
-    margin: 0 auto;
-    max-width: 1000px;
+.announce_input_container {
+    margin-top: 30px;
+    height: 60%;
+}
+.announce_input_container .title_input {
+    width: 100%;
+    font-size: 15px;
+}
+.announce_input_container .content_input {
+    width: 100%;
+    font-size: 15px;
+    margin-top: 20px;
+    height: 60%;
+}
+.button_container {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.button_container .add_button {
+    background-color: #ffffff;
+    border: solid #cccccc 1px;
+    cursor: pointer;
+    font-size: 80%;
 }
